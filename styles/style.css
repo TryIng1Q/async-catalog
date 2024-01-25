@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'Righteous-Regular';
+	src: url('Righteous-Regular.woff2');
+}
+* {
+	font-family: 'Righteous-Regular';
+	color: #fff;
+}
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: center;
+
+	margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+	background-color: #000;
+}
+
+.episodes-container {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+.episodes__title {
+	margin: 0;
+	padding: 30px;
+}
