@@ -2,8 +2,7 @@
 import logicFunction from "./logic.js";
 
 // Init CSS style
-const currentPage = window.location.pathname;
-console.log(logicFunction.loadCSSstyle(currentPage));
+logicFunction.loadCSSstyle();
 
 
 
